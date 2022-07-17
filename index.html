@@ -4,12 +4,13 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- <script src="https://cdn.tailwindcss.com"></script> -->
+    <link rel="stylesheet" href="style.css">
     <title>Portfolio Website</title>
 </head>
 
 <body class="bg-purple-100 container">
-    <nav class="flex justify-end items-center bg-purple-500 h-11 w-auto text-white ">
+    <nav class="flex justify-end items-center bg-purple-500 h-11  text-white w-screen ">
         <ul class="flex px-24">
             <li class="px-2 cursor-pointer"><a href="">About Me</a> </li>
             <li class="px-2 cursor-pointer"><a href="">Education</a></li>
@@ -17,8 +18,8 @@
             <li class="px-2 cursor-pointer"><a href="">Projects</a></li>
         </ul>
     </nav>
-    <main class="align-middle 2xl:block">
-            <div class=" pt-11 mx-11 my-11 sm:pt-32 sm:mx-24 sm:my-10 flex justify-between sm:p-10 md:p-12 lg:p-20  bg-red-200 xl:rounded-xl border-2 
+    <main class="align-middle 2xl:block overflow-auto">
+            <div class=" pt-11 mx-11 my-11 sm:pt-32 sm:mx-24 sm:my-10 overflow-auto flex justify-between sm:p-10 md:p-12 lg:p-20  bg-red-200 xl:rounded-xl border-2 
             border-blue-400">    
                 <img src="./photo.png" class="sm:w-[150px] sm:h-3/5 sm:mt-1 md:w-[150px] md:h-2/5 md:mt-[0.2em] lg:w-[250px]  lg:mt-[0.5em] lg:rounded-none lg:h-3/5 xl:w-[450px] xl:rounded-full xl:h-2/5 2xl:rounded-full 2xl:mx-10 w-[100px] h-2/5 m-1 border-2  border-red-400 xl:mt-[-2.5em] "  alt="Photo">
                 <div class="px-1 mx-5 items-center ">
@@ -33,7 +34,7 @@
                 </div>
             </div>
             <div>
-                <div class="pb-24 pt-10  mx-24 my-10  border-2 border-spacing-12 border-orange-800  bg-orange-300 rounded-xl">
+                <div class="pb-24 pt-10  mx-24 my-10  border-2 border-spacing-12 overflow-auto border-orange-800  bg-orange-300 rounded-xl">
                     <h1 class="font-bold text-3xl text-center mx-4">Education</h1>
                     <div class="flex justify-center items-center">
                         <div class="m-5 text-xl w-3/4">
@@ -45,10 +46,10 @@
                     </div>
                 </div>
             </div>
-            <div class="pb-24 pt-10  mx-24 my-10  border-2 border-spacing-12 border-orange-800  bg-amber-200 rounded-xl">
+            <div class="pb-24 pt-10  mx-24 my-10  border-2 border-spacing-12 border-orange-800 overflow-auto bg-amber-200 rounded-xl">
                 <h1 class="font-bold text-3xl text-center mx-4">Skills</h1>
                 <div class="flex justify-center items-center">
-                    <img src="https://www.qlik.com/blog/assets/uploads/images/gettyimages-679762242.jpg" class=" h-1/5 w-1/5 md:mx-10 sm:border-2 sm:border-fuchsia-400" alt="">
+                    <img src="https://www.qlik.com/blog/assets/uploads/images/gettyimages-679762242.jpg" class="mx-10 h-2/5 w-1/5   border-2 border-fuchsia-400" alt="">
                     <div class="m-5 text-xl w-3/4 mx-10">
                         <li class="m-2">Programming Languages - C, C++, Python, Javascript</li>
                         <li class="m-2">Frontend Technologies - HTML, CSS, JS ,Bootstrap, React JS </li>
@@ -60,7 +61,7 @@
                     <img src="https://www.myamcat.com/blog/wp-content/uploads/2019/02/Text-placeholder-3.png" class="mx-10 h-2/5 w-1/5   border-2 border-fuchsia-400" alt="">
                 </div>
             </div>
-            <div class="pb-24 pt-10  mx-24 my-10  border-2 border-spacing-12 border-orange-800  bg-red-200 rounded-xl">
+            <div class="pb-24 pt-10  mx-24 my-10  border-2 overflow-auto border-spacing-12 border-orange-800  bg-red-200 rounded-xl">
                 <h1 class="font-bold text-3xl text-center mx-4">Projects</h1>
                 <div class="flex justify-center items-center">
                     <div class="m-5 text-xl w-3/4 mx-10">
@@ -70,7 +71,7 @@
                                 <div class="text-center">
                                     <h2 class="text-xl font-bold py-2">News App</h2>
                                     <h3 class="w-[385px] text-center">Created a News App that provides latest news using React Js and News API. Provides latest news about various domains such as Sports, Entertainment, Business, etc.</h3>
-                                    <button class="rounded-full"><a href="https://github.com/shubham-k01/React-News-Project" target="_blank"><img src="https://seeklogo.com/images/G/github-logo-7880D80B8D-seeklogo.com.png" class="h-9 w-9 m-2 hover:grayscale-0" alt=""></a></button>
+                                    <button class="rounded-full"><a href="https://github.com/shubham-k01/React-News-Project" target="_blank"><img src="https://seeklogo.com/images/G/github-logo-7880D80B8D-seeklogo.com.png" class="h-9 w-9 m-2 " alt=""></a></button>
                                 </div>
                             </div>
                             <div class="border-2 border-red-400 w-[405px] bg-lime-200">
